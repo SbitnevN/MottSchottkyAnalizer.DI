@@ -1,10 +1,12 @@
 E:\Github\Diplome\MottSchottkyAnalizer.DI\bin\Debug\net10.0\MottSchottkyAnalizer.DI.deps.json
 E:\Github\Diplome\MottSchottkyAnalizer.DI\bin\Debug\net10.0\MottSchottkyAnalizer.DI.dll
 E:\Github\Diplome\MottSchottkyAnalizer.DI\bin\Debug\net10.0\MottSchottkyAnalizer.DI.pdb
+E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.csproj.AssemblyReference.cache
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.GeneratedMSBuildEditorConfig.editorconfig
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.AssemblyInfoInputs.cache
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.AssemblyInfo.cs
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.csproj.CoreCompileInputs.cache
+E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.sourcelink.json
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.dll
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\refint\MottSchottkyAnalizer.DI.dll
 E:\Github\Diplome\MottSchottkyAnalizer.DI\obj\Debug\net10.0\MottSchottkyAnalizer.DI.pdb
