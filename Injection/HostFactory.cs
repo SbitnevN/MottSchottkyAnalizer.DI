@@ -14,18 +14,22 @@ public static class HostFactory
 
     private static void ConfigureHost(HostBuilderContext context, IServiceCollection services)
     {
-        foreach (Assembly assembly in MottSchottkyAssemblies.All)
+        foreach (Assembly assembly in MottSchottkyAssemblies.GetAssemblies())
             services.Register(assembly);
     }
 
     private static class MottSchottkyAssemblies
     {
-        public static readonly Assembly Application = Assembly.Load("MottSchottkyAnalizer.Application");
-        public static readonly Assembly Controls = Assembly.Load("MottSchottkyAnalizer.Controls");
-        public static readonly Assembly Core = Assembly.Load("MottSchottkyAnalizer.Core");
-        public static readonly Assembly Infrastructure = Assembly.Load("MottSchottkyAnalizer.Infrastructure");
-        public static Assembly DI => Assembly.GetExecutingAssembly();
-
-        public static Assembly[] All { get; } = [DI, Application, Controls, Core, Infrastructure];
+        public static Assembly[] GetAssemblies()
+        {
+            return
+            [
+                Assembly.GetExecutingAssembly(),
+                Assembly.Load("MottSchottkyAnalizer.Application"),
+                Assembly.Load("MottSchottkyAnalizer.Controls"),
+                Assembly.Load("MottSchottkyAnalizer.Core"),
+                Assembly.Load("MottSchottkyAnalizer.Infrastructure")
+            ];
+        }
     }
 }
